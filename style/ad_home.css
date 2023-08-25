@@ -1,0 +1,17 @@
+body{
+    background-image: url('../pictures/thumb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+}
+
+
+.bg-image{
+    text-align: center;
+}
+
+#hello{
+    font-size: 48px;
+    position: absolute;
+    left: 47rem;
+}

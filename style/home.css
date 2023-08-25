@@ -1,0 +1,160 @@
+body{
+    background-color: gainsboro;
+    }
+
+.Heading h1{
+
+    text-align: center;
+    font-family: 'Inter';
+    padding-bottom: 2rem;
+    font-size: 48px;
+    border: 1px solid #000000;
+    background-color: #99ebff;
+    color: rgb(233, 14, 14);
+    }
+
+.sidebox{
+    box-sizing: border-box;
+    position: absolute;
+    width: 247px;
+    height: 628px;
+    left: 0px;
+    top: 137px;
+    font-size: 25px;
+    background: #FFFFFF;
+    border-right: 1px solid #D1D1D1; 
+    border-left: 1px solid #D1D1D1;
+}
+
+li{
+    padding:1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D1D1D1;
+    border-top: 1px solid #D1D1D1;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.sidebox a{
+    text-decoration: none;
+}
+
+.main{
+    padding-left: 24rem;
+}
+
+.main .info{
+    height: 16rem;
+    margin-top: 0rem;
+}
+
+.main .info img{
+    width: 555px;
+    height: 291px;
+    margin-top: -31px;
+    float : right;
+}
+
+.main .info #welcome{
+    position: absolute;
+    font-size: 43px;
+    width: 657px;
+    height: 33px;
+    left: 140px;
+    top: 220px;
+}
+
+
+.main .info #label1{
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 126px;
+    top: 280px;
+}
+
+.main .info h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    color: rgb(205, 18, 229);
+}
+
+.main hr{
+    margin-left: -144px;
+}
+
+
+.main{
+    padding-left:20px ;
+}
+
+h2{
+    position: absolute;
+    left: 602px;
+    top: 441px;
+}
+
+.tag{
+    font-size: 20px;
+    margin: 1.5em 0px;
+    padding: 5px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    background: #efefef;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+img{
+    
+    width: 300px;
+    height: 300px;
+    transition: all .4s ease-in-out;
+}
+/*filter CSS */
+
+    #Wedding:checked ~ .images > img:not([class*='Wedding']),
+    #Maternity:checked ~ .images > img:not([class*='Maternity']),
+    #Baby_shoot:checked ~ .images > img:not([class*='Baby_shoot']),
+    #pre-wedding:checked ~ .images > img:not([class*='pre-wedding']),
+    #product:checked ~ .images > img:not([class*='product']),
+    #events:checked ~ .images > img:not([class*='events']),
+    #lion:checked ~ .images > img:not([class*='lion']){
+    width: 0px;
+    height: 0px;
+    }
+
+
+#Wedding:checked ~ .tag1, 
+#Maternity:checked ~ .tag2,
+#Baby_shoot:checked ~ .tag4,
+#pre-wedding:checked ~ .tag5,
+#product:checked ~ .tag6,
+#events:checked ~ .tag7,
+#lion:checked ~ .tag3{
+    background-color: #333333;      
+    color: white;
+} 
+    
+
+.images{
+    position: absolute;
+    left: 252px;
+    top: 594px;
+
+}
+
+.types{
+    position: absolute;
+    left: 389px;
+    top: 499px;
+}

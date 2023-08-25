@@ -1,0 +1,46 @@
+body{
+    background-color: gainsboro;
+    }
+
+.main form{
+    margin-left: 229px;
+}
+
+#head{
+    margin-left: 37rem;
+    font-size: 35px;
+}
+
+form{
+    margin-left: 37rem;
+    
+}
+#input{
+    margin-bottom: 20px;
+    font-size: 17px;
+    background-color: lightgoldenrodyellow;
+    width: 290px;
+    height: 34px;
+    color: #f92e02;
+    border-radius:3px solid;
+}
+
+#submit{
+    width: 92px;
+    height: 33px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+.main form #area{
+    font-size: 17px;
+    background-color: lightgoldenrodyellow;
+}
+
+.main #head{
+    
+    padding-left: 11rem;
+    font-size: 40px;
+    color: purple;
+}

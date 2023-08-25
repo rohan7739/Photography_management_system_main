@@ -1,0 +1,78 @@
+.Heading{
+    margin-top: -29px;
+}
+
+
+.Heading h1{
+    text-align: center;
+    font-family: 'Inter';
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    font-size: 48px;
+    border: 1px solid #000000;
+    background-color: #06523d;
+    color: rgb(255 255 255);
+    margin-top: 8px;
+    }
+
+.sidebox{
+    box-sizing: border-box;
+    position: absolute;
+    width: 247px;
+    height: 116%;
+    left: 0px;
+    top: 110px;
+    font-size: 25px;
+    background: #99a6b6;
+    border-right: 1px solid #D1D1D1; 
+    border-left: 1px solid #D1D1D1;
+}
+
+li{
+    padding:1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D1D1D1;
+    border-top: 1px solid #D1D1D1;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.sidebox a{
+    color: #080808;
+    text-decoration: none;
+}
+
+.main{
+    padding-left: 24rem;
+}
+
+.main form{
+    padding-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+
+.main h2{
+    font-size: 33px;
+    margin-left: 90px;
+}
+
+.logout{
+    display: flex;
+    float: right;
+    position: absolute;
+    left: 88rem;
+    top: 3rem;
+
+}
+
+.user{
+    position: absolute;
+    color:white;
+    left:17px;
+    top:30px;
+}

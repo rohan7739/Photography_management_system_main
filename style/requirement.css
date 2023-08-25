@@ -1,0 +1,43 @@
+body{
+    background-color: gainsboro;
+    }
+
+.main form #email{
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    right: 649px;
+    top: 188px;
+    width: 294px;
+    height: 30px;
+    border-radius: 11px;
+}
+
+.main form #button{
+    position: absolute;
+    right: 34rem;
+    top: 12rem;
+    width: 67px;
+    height: 32px;
+    border-radius: 23px;
+    background-color: black;
+    color: white;
+}
+
+
+#address{
+    background-color: lightgoldenrodyellow;
+    width: 331px;
+    height: 39px;
+    font-size: 15px;
+      
+  }
+  #label{
+      margin-left: 24rem;
+      font-size: 25px;
+      margin-left: 19rem;
+      padding-left: 90px;
+  }
+
+#head1{
+    font-size: 23px;
+}
